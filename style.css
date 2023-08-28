@@ -258,7 +258,7 @@ form .textfield{
         display: flex;
         background: linear-gradient(#060606,#000000);
         height: 10%;
-        width: 420px;
+        width: 440px;
         overflow: hidden;
     }
     .heading{
