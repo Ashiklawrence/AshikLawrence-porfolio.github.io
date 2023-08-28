@@ -351,7 +351,8 @@ form .textfield{
     }
     .imgskill{
         height: 45px;
-        transform: translateX(-20px);
+        width: 45px;
+        transform: (-20px);
     }
 /*contact*/
 .Square h1{
