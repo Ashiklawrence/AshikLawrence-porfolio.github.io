@@ -282,7 +282,7 @@ form .textfield{
         
     }
     .social img{
-        height: 25px;
+        height: 40px;
     }
     .container img{
         margin-left: 9%;
@@ -350,7 +350,7 @@ form .textfield{
         font-size: 18px;
     }
     .imgskill{
-        height: 80px;
+        height: 45px;
         transform: translateX(-20px);
     }
 /*contact*/
