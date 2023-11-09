@@ -1,0 +1,415 @@
+body{
+    margin: 0px;
+    border:0px;
+   justify-content: center;
+   background: linear-gradient(#01bfcb,#7d30e2);
+   height:100vh;
+   
+}
+.header{
+    display: flex;
+    background: linear-gradient(#060606,#060606);
+    height: 8%;
+    width: 100%;
+    
+}
+.hmenus{
+    word-spacing: 50px;
+    top: 20px;
+    padding-top: 20px;
+    padding-left: 2%;
+    text-align: left;
+    overflow: hidden;
+    
+
+}
+.heading{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 25%;
+    
+    
+}
+
+    .social{
+        word-spacing: 25px;
+        margin-left: 33%;
+        margin-top: 1%;
+        
+    }
+    .social img:hover{
+        filter: drop-shadow(0px 0px 5px #db07be);
+        transition: 0.2s;
+
+    }
+        
+
+
+input[type='button']{
+    position: relative;
+    border-radius: 10px;
+   background-color: rgb(11, 11, 11);
+   border-color: #db07be;
+   color: aliceblue;
+   font-size: small;
+   cursor: pointer;
+}
+.container{
+    display: flex;
+    text-align: center;
+   margin-top: 6.5%;
+}
+.container img{
+    margin-left: 10%;
+    filter: drop-shadow(0px 0px 10px #4c898e);
+}
+.text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-left: 15px;
+    color:white;
+}
+.text h3{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 0px 10px #4c898e;
+
+}
+.text h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 0px 0px 10px #4c898e;
+}
+.text h4{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px #4c898e;
+}
+.hireme{
+    word-spacing: 20px;
+}
+.hiremebtn1{
+    border-radius: 8px;
+    background-color: #fd42ea;
+    border-color:#fd42ea;
+    font-size: 12px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    margin-top: 8%;
+    width: 25%;
+    height: 50px;
+    font-weight: bold;
+    box-shadow:0px 0px 15px 1px #fd42ea
+    
+    
+}
+.hireme .hiremebtn1:hover{
+    width: 50%;
+    transition:0.2s;
+
+}
+.hiremebtn{
+    border-radius: 8px;
+    background-color: #06d9e8;
+    border-color: #06d9e8;
+    font-size: 12px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    margin-top: 8%;
+    width: 25%;
+    height: 50px;
+    font-weight: bold;
+    box-shadow:0px 0px 15px 1px rgb(124, 227, 250);
+    
+    
+}
+.hireme .hiremebtn:hover{
+    width: 50%;
+    transition:0.2s;
+
+}
+/* about page*/
+.content{
+    margin: 0%;
+    border:0%;
+    text-align: center;
+}
+.content h1{
+    color: white ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content p{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+c1{
+    color: #a51992;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skills{
+    margin-top: 5%;
+    border:0%;
+    text-align: center;
+
+}   
+.skills h1{
+    color: white ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.imglist{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    text-align:center;
+    display: flex;
+}
+.imglist img{
+     width: 50%;
+     margin: 0%;
+     padding: 0%;
+}
+/* contact page*/
+.Square{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 1.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    border-radius:25px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 1px rgb(49, 146, 170);
+}
+.Square h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lab{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+form .textfield{
+     border-bottom: 0.5px solid #0a0a0a;
+
+
+}
+    
+.textfield input{
+
+    border: none;
+    outline: none;
+    background: none;
+
+}
+.submit{
+    border-radius: 8px;
+    background-color: #06d9e8;
+    border-color: #06d9e8;
+    font-size: 12px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    margin-top: 0%;
+    width: 25%;
+    height: 50px;
+    font-weight: bold;
+    box-shadow:0px 0px 5px 1px rgb(124, 227, 250);
+   
+ }
+ .submit:hover{
+    box-shadow:0px 0px 20px 1px  rgb(124, 227, 250);
+    transition: 0.2s;
+
+ }
+ .msgarea{
+    resize: none;
+    border-radius: 20px;
+    border-style:dotted;
+ }
+ .sndbtn{
+    text-align: center;
+ }
+
+
+
+
+@media screen and (max-width:600px){
+    body{
+        margin: 0px;
+        border: 0px;
+       justify-content: center;
+       background: linear-gradient(#01bfcb,#7d30e2);
+       height:125vh;
+       
+       
+    }
+    .header{
+        display: flex;
+        background: linear-gradient(#060606,#000000);
+        height: 10%;
+        width: 100%;
+
+    }
+    .heading{
+        color: aliceblue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 35%;
+        
+        
+    }
+    .hmenus{
+       position: absolute;
+       padding-top: 8.5%;
+       padding-left: 10%;
+      
+    }
+    .social{
+        position: absolute;
+        bottom: 0%;
+        top: 105%;
+        left: -10%;
+}
+    .social img{
+        height: 40px;
+    }
+    .container img{
+        height: 225px;
+        filter: drop-shadow(0px 0px 10px #4c898e);
+    }
+    .text h3{
+        margin-top: 0%;
+        margin-bottom: 0px;
+        font-size: 30px;
+        text-shadow: 0px 0px 10px #4c898e;
+    
+    }
+    .text h1{
+        border: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 40px;
+        color: aliceblue;
+        text-shadow: 0px 0px 10px #4c898e;
+    }
+    .text h4{
+        padding-left: 0px;
+        margin-top: 0px;
+        font-size: 20px;
+        text-shadow: 0px 0px 10px #4c898e;
+    }
+    .container{
+        display: block;
+        text-align: center;
+       margin-top: 10%;
+    }
+    .hiremebtn{
+        border-radius: 8px;
+        background-color: #06d9e8;
+        border-color: #06d9e8;
+        font-size: 12px;
+        color: aliceblue;
+        border: none;
+        cursor: pointer;
+        margin-top: 8%;
+        width: 50%;
+        height: 30px;
+        font-weight: bold;
+        box-shadow:0px 0px 15px 1px rgb(124, 227, 250);
+        
+    }
+    .hiremebtn1{
+        border-radius: 8px;
+        background-color: #fd42ea;
+        border-color: #fd42ea;
+        font-size: 12px;
+        color: aliceblue;
+        border: none;
+        cursor: pointer;
+        margin-top: 8%;
+        width: 50%;
+        height: 30px;
+        font-weight: bold;
+        box-shadow:0px 0px 15px 1px #fd42ea;
+
+    }
+    .content p{
+        font-size: 18px;
+        margin-left: 15%;
+    }
+    .imglist{
+        list-style: none;
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+        display: initial;
+    }
+    .imglist img{
+         width: 20%;
+    }
+/*contact*/
+.Square h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.lab{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    
+}
+form .textfield{
+     border-bottom: 0.5px solid #0a0a0a;
+
+
+}
+    
+.textfield input{
+
+    border: none;
+    outline: none;
+    background: none;
+
+}
+.submit{
+    border-radius: 8px;
+    background-color: #06d9e8;
+    border-color: #06d9e8;
+    font-size: 12px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    margin-top: 0%;
+    width: 25%;
+    height: 50px;
+    font-weight: bold;
+    box-shadow:0px 0px 5px 1px rgb(124, 227, 250);
+   
+ }
+ .msgarea{
+    resize: none;
+    border-radius: 20px;
+    border-style:dotted;
+    margin-bottom: 20%;
+ }
+ .sndbtn{
+    text-align: center;
+ }
+
+
+}
